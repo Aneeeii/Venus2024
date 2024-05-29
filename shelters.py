@@ -7,7 +7,7 @@ import json
 
 
 Distance = namedtuple("Distance", ['x', 'y', 'euclidean_distance'])
-_CONNECTION_PATH = "c:/Coding/VenusHacks2024/Venus2024/Persephone.db"
+_CONNECTION_PATH = "insert database path here"
 
 
 def _calculate_distance(lat: int, long: int, coordinates) -> Distance:
